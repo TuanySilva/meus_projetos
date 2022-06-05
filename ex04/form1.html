@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário e Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <table>
+            <caption>Exemplo de criação e formatação de tabelas</caption>
+            <thead>
+                 <tr>
+                   <th class="titulo" colspan="4">CADASTRO DE ESTÁGIO TI</th>
+                  </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Nome Completo:</th>
+                    <td colspan="3"><input type="text" size="50" name="nome"></td>
+                </tr>
+                <tr>
+                    <th>Sexo:</th>
+                    <td><input type="radio" name="sexo" value="f" checked> Feminino</td>
+                    <td> <input type="radio" name="sexo" value="m"> Masculino</td>
+                    <td></td>
+                </tr>
+                <tr aria-rowspan="2">
+                    <th>Nível Escolar:</th>
+                    <td colspan="2">
+                        <select name="nivelescolar">
+                            <option value="1">Ensino Fundamental</option>
+                            <option value="2">Ensino Médio</option>
+                            <option value="3">Ensino Superior</option>
+                            <option value="4">Pós-Graduação</option>
+                        </select>
+                    </td>
+                    <td><input type="radio" name="situacao" value="1" checked> Completo<br>
+                        <input type="radio" name="situacao" value="2"> Incompleto</td>
+                </tr>
+                <tr>
+                    <th>Áreas de interesse:</th>
+                    <td><input type="checkbox" name="internet" value="i"> Internet</td>
+                    <td><input type="checkbox" name="bancodedados" value="b"> Banco de dados</td>
+                    <td><input type="checkbox" name="programacao" value="p"> Programação</td>
+                </tr>
+                <tr>
+                    <th>Por que você deve ser escolhido?</th>
+                    <td colspan="3">
+                        <textarea name="justificativa"  rows="5" cols="50">Digite aqui...</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Enviar"></td>
+                    <td colspan="2"><input type="reset" value="Limpar"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
