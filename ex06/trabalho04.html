@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8" />
+	<title>AVA2 - Formulário</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>Criar Conta</h2>
+		</div>
+	
+	
+		<form id="form" class="form">
+			<div class="form-control">
+				<label for="username">Nome de usuário</label>
+				<input type="text" id="username" placeholder="Digite seu nome completo..." />
+				<i class="fas fa-exclamation-circle"></i>
+				<i class="fas fa-check-circle"></i>
+				<small>Mensagem de Erro.</small>
+			</div>
+		
+			<div class="form-control">
+				<label for="email">Email</label>
+				<input type="email" id="email" placeholder="Digite seu email..."/>
+				<i class="fas fa-exclamation-circle"></i>
+				<i class="fas fa-check-circle"></i>
+				<small>Mensagem de Erro.</small>
+			</div>
+		
+			<div class="form-control">
+				<label for="data_nasc">Data de Nascimento</label>
+				<input type="date" id="data_nasc" />
+				<i class="fas fa-exclamation-circle"></i>
+				<i class="fas fa-check-circle"></i>
+				<small>Mensagem de Erro.</small>
+			</div>
+			
+			<div class="table-control">
+				<table>
+					<tr>
+						<th colspan="3"><label for="estado_civil">Estado civil</label></th>
+						<th colspan="3"><label for="sexo">Sexo</label><th>
+						
+					</tr>
+		
+					<tr>
+						<td colspan="3" type="select" name="estado_civil">
+							<select id="estado_civil">
+							<option>Solteiro(a)</option>
+							<option>Casado(a)</option>
+							<option>Outros</option>
+							</select>
+						</td>
+						<td><input colspan="1" type="radio" name="sexo" value="f" checked>Feminino</input></td>
+						<td><input  colspan="1" type="radio" name="sexo" value="m">Masculino</input></td>
+					</tr>
+				
+					<tr>
+					<th colspan="6"><label for="opcoes_multi">Áreas de Interesse</label></th>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="Ánalise"> Análise</input></td>
+						<td><input type="checkbox" name="Banco de Dados"> Banco de Dados</input></td>
+						<td><input type="checkbox" name="Desenvolvimento"> Desenvolvimento</input></td>
+						<td><input type="checkbox" name="Engenharia de software"> Engenharia de Dados</input></td>
+						<td colspan="2"><input type="checkbox" name="Redes de computadores"> Redes de Computadores</input></td>
+					</tr>
+				</table>
+			</div>
+			<button type="submit">Enviar</button>
+		</form>
+	</div>
+	
+	<script src="https://kit.fontawesome.com/4eb5b96065.js" crossorigin="anonymous"></script>
+
+	<script src="C:\Users\Tuany Barboza\Desktop\20213301663 tuany barboza da silva e silva (trabalho4)\TRABALHO4\scripts.js"></script>
+	
+
+</body>
+</html>
