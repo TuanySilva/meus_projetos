@@ -1,0 +1,172 @@
+/*Inicio do estilo do cabeçalho*/
+header {
+    padding: 20px 0;
+    background: linear-gradient(#F8A08C,#F2CCB5,#F7E8D0);
+}
+
+.caixa {
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+}
+
+/* Inicio do estilo do main*/
+
+.caixa2 {
+    background: #F2CCB5;
+}
+
+main {
+    width: 940px;
+   /* border: 2px solid rgb(255, 97, 123); */
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #F8A08C;
+    color: whitesmoke;
+    box-shadow: 2px 2px 8px black;
+}
+
+nav {
+    position: absolute;
+    top: 110px; 
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    color: #f51eb4;
+    font-size: 2em;
+    transition: 500ms;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.titulo-principal {
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    clear:left;
+    text-shadow: 2px 2px 2px #F8A08C;
+}
+
+.imagem-principal {
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.mapa {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+}
+
+.beneficios {
+    padding: 0 0 20px 0;
+}
+
+.conteudo {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.itens:before {
+    content: "🟊 ";
+}
+
+.imagem-beneficios{
+    width: 384px;
+    height: 255px;
+    box-shadow: 2px 2px 20px 2px black;
+    transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+}
+
+.video {
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 40px rgb(214, 20, 52);
+    margin-top: 30px ;
+    text-align: center;
+    display:block;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(#F7E8D0,#F2CCB5,#F8A08C);
+    padding: 40px 0;
+}
+
+.imagem-rodape {
+    height: 270px;
+    width: 270px;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 1em;
+    font-weight: bold;
+}

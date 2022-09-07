@@ -1,0 +1,118 @@
+/*Inicio do estilo do cabeçalho*/
+
+header {
+    padding: 20px 0;
+    background: linear-gradient(#F8A08C,#F2CCB5,#F7E8D0);
+}
+
+.caixa {
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+}
+
+nav {
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    font-size: 2.0em;
+    transition: 500ms;
+    color:  #f51eb4;
+    text-decoration: underline;
+}
+
+/*Estilizando o bloco main*/
+
+ul h3 {
+    font-family: 'Aboreto', cursive;
+}
+
+.servicos {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    vertical-align: top;
+    margin: 30px 1.5% ;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.servicos li:hover {
+    border-color: pink;
+}
+
+.servicos li:active {
+    border-color: #f51eb4;
+}
+
+.servicos li:hover h3 {
+    font-size: 34px;
+}
+
+.servicos h3 {
+    margin: 0 0 25px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.imagem-servicos {
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 9px black;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background: linear-gradient(#F7E8D0,#F2CCB5,#F8A08C);
+    padding: 40px 0;
+}
+
+.imagem-rodape {
+    height: 270px;
+    width: 270px;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 1em;
+    font-weight: bold;
+}
+

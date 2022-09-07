@@ -1,0 +1,42 @@
+
+body {
+    background-image: linear-gradient(to right, #A63255,#8C143C,#59001E);
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 0 auto;
+    border: 2px dotted black;
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    
+    
+}
+
+.control-form {
+    border: 3px solid #59001E;
+}
+
+.control-form label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.control-form input {
+    display: block;
+    font-size: 1.2em;
+    width: 90%;
+}
+
+.control-agenda legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.control-agenda label{
+    border: 2px solid blue ;
+    display: inline-block;
+    font-size: 1.1em;
+}
